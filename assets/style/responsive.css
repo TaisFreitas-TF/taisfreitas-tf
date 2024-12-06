@@ -1,0 +1,154 @@
+:root{
+    --preta:#141414;
+    --azul: #00316B;
+    --azul-claro: #245293;
+    --cinza-escuro:#575758;
+    --cinza-medio:#7a7a7a;
+    --cinza-claro:#a4a4a8;
+}
+
+
+@media (max-width:800px){
+    header .botoes{
+        gap: 0.6rem;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+    
+    /*Principal*/
+    .principal{
+        border-radius: 20px;
+        border: solid 4px var(--cinza-escuro);
+    }
+
+    .container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    }
+
+    .principal{
+        margin-bottom: 50px;
+    }
+
+    .descricao{
+    background-color: var(--preta);
+    padding: 10px;
+    border: solid 2px var(--cinza-escuro);
+    margin-bottom: 25px;
+    }
+
+ 
+    /*Graduação*/
+    .graduacao img{
+    width: 150px;
+    }
+
+    /*Meus Trabalho*/
+    .containerlinks2{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.10)50%),  url('../img/fundo01.jpg');
+    background-size: cover;
+    border: solid 4px var(--cinza-escuro);
+    border-radius: 5%;
+    }
+
+
+    section .botoes2{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    }
+
+    .cta {
+        font-size: 60px;
+    }
+
+  
+
+    /*Slider*/
+    .slider{
+    width: 380px;
+    height: 380px;
+    }
+
+    .slider h1{
+    font-size: 25px;
+    }
+
+    .slide img{
+    width: 380px;
+    }
+
+   .navigation{
+    margin: -20px 141px;
+    width: 100px;
+
+
+    }
+
+    .bar{
+    padding: 4.5px;
+    }
+
+
+
+
+   /*Sobre mim*/
+
+   .container2{
+    border: none;
+   }
+
+   .sobremimfoto img{
+    margin-top: -70px;
+   }
+  
+   /*Experiências*/
+   .experiencias h1{
+    color: var(--cinza-claro);
+    }
+    
+    .experiencias h2{
+    font-size: 30px;
+    -webkit-text-stroke-width: 0.5px;
+    }
+
+    .experiencias p{
+    font-size: 18px;
+    margin: 0px 20px;
+    line-height: 25px;
+    
+    }
+
+    .ultimo {
+    padding-bottom: 40px;
+    }
+
+    
+    /*Contato*/
+   .enderecos{
+     margin-top: 60px;
+    }
+
+   .enderecos img{
+    width: 250px;
+    }  
+
+    .contatos{
+    text-align: center;
+    margin-top: 20px;
+    } 
+
+    .contatos h2{
+    color: var(--cinza-claro);    
+    }
+
+    .contatos h3{
+    font-size: 20px;   
+    }
+
+     
+}
+

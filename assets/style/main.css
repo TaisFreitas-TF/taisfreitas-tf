@@ -1,0 +1,343 @@
+:root {
+    --white-color: #FFFF;
+    --black: #141414;
+    --blue: #041c77;
+    --LightBlue-color: #74b7ed;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+/*elementos base*/
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    background: linear-gradient(rgba(0, 0, 0, .20), rgba(0, 0, 0, .20)100%), url('../img/fundo-de-tecnologia02.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+    font-family: "Source Serif 4", serif;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--white-color);
+
+    animation: fadein 4s;
+    /* Padrão */
+    -webkit-animation: fadein 4s;
+    /* Webkit */
+    -moz-animation: fadein 4s;
+    /* Firefox */
+    -ms-animation: fadein 4s;
+    /* IE */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    /* Padrão */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Serif 4", serif;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.3rem;
+}
+
+p {
+    line-height: 4rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: rgb(116, 183, 237, 0.4);
+}
+
+header div {
+    background: url(../img/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    backface-visibility: hidden;
+    animation: aitf;
+    transform: translate3d();
+
+    /* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    /* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+
+}
+
+/* Animate Background Image */
+
+@keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+header h1 {
+    text-transform: uppercase;
+    padding: 2rem;
+    font-size: 5rem;
+}
+
+main {
+    padding-top: 16rem;
+}
+
+main h1 {
+    font-size: 5rem;
+    padding: 0rem 1rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+/*botões*/
+.glow-on-hover {
+    width: 13rem;
+    height: 4rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/*botões*/
+footer img {
+    width: 3rem;
+}
+
+footer .buttons {
+    margin-top: 5rem;
+    gap: 1.5rem;
+}
+
+footer .btn {
+    position: relative;
+    width: 6rem;
+    height: 4.5rem;
+    background: var(--white-color);
+    line-height: 6rem;
+    border: solid 0.1rem var(--black);
+    border-radius: 0 1.5rem;
+    cursor: pointer;
+}
+
+footer .btn:hover {
+    background-color: var(--LightBlue-color);
+}
+
+
+
+/*Responsive*/
+@media (min-width: 890px) and (max-width: 1099px) {
+
+    header h1 {
+        padding: 6rem;
+        font-size: 8rem;
+    }
+
+    main {
+        padding-top: 15rem;
+    }
+
+    main h1 {
+        font-size: 6rem;
+    }
+
+    main h2 {
+        font-size: 2.5rem;
+    }
+
+
+    .glow-on-hover {
+        width: 18rem;
+        height: 4rem;
+        margin-top: 5rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    footer img {
+        width: 5rem;
+    }
+
+    footer .buttons {
+        margin-top: 10rem;
+        gap: 2rem;
+    }
+
+    footer .btn {
+        width: 10rem;
+        height: 6.5rem;
+        line-height: 10rem;
+    }
+}
+
+
+@media (min-width: 510px) and (max-width: 890px) {
+
+    main {
+        padding-top: 8rem;
+    }
+
+    main h1 {
+        font-size: 3.5rem;
+    }
+
+    main h2 {
+        font-size: 2rem;
+    }
+
+    footer .buttons {
+        padding: 6rem;
+    }
+}
+
+@media (max-width: 410px) {
+    .container {
+
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
+    main {
+        padding-top: 10rem;
+    }
+
+    main h1 {
+        font-size: 3rem;
+    }
+
+    main h2 {
+        font-size: 1.8rem;
+    }
+
+
+    footer .buttons {
+        padding: 4rem;
+    }
+}

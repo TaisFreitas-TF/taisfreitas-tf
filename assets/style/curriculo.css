@@ -1,0 +1,309 @@
+:root {
+    --white-color: #FFFF;
+    --black: #141414;
+    --blue: #00316B;
+    --LightBlue-color: #245293;
+    --dark-gray: #575758;
+    --medium-gray: #7a7a7a;
+    --light-gray-color: #a4a4a8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+/*elementos base*/
+body {
+    background: var(--black);
+    font-family: "Source Serif 4", serif;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--white-color);
+
+    animation: fadein 4s;
+    /* Padrão */
+    -webkit-animation: fadein 4s;
+    /* Webkit */
+    -moz-animation: fadein 4s;
+    /* Firefox */
+    -ms-animation: fadein 4s;
+    /* IE */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    /* Padrão */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Serif 4", serif;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.5rem;
+}
+
+p {
+    line-height: 4rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.container-one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.container-two {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+/*Cabeçalho*/
+
+.header {
+    margin-top: 3rem;
+}
+
+header img {
+    width: 3rem;
+}
+
+header h1 {
+    margin-bottom: -0.5rem;
+}
+
+header h2 {
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
+}
+
+header p {
+    margin-bottom: -1rem;
+}
+
+
+/*principal*/
+
+.main {
+
+    margin-top: 2rem;
+}
+
+.main-photo {
+    width: 25rem;
+    margin: 2rem auto;
+    border-radius: 30%;
+    border: solid 0.2rem var(--dark-gray);
+}
+
+.description {
+    background: var(--black);
+    border: solid 0.3rem var(--dark-gray);
+    border-radius: 1.0rem;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+}
+
+
+
+/*formação*/
+
+.main-training {
+    background-color: var(--dark-gray);
+
+    margin-top: 2.5rem;
+    padding: 5rem;
+    text-align: center;
+    border: solid 0.3rem var(--dark-gray);
+    border-radius: 1.0rem;
+    gap: 5rem;
+}
+
+.main-training img {
+    width: 30rem;
+    border-radius: 50%;
+    border: solid 0.1rem var(--black);
+
+}
+
+.main-training h2 {
+    color: var(--black);
+}
+
+.main-training h2,
+h3,
+h4,
+h5,
+h6 {
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+}
+
+.training {
+    margin-top: 2rem;
+}
+
+/*cursos livres*/
+.free-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.free-courses ul {
+    margin-top: 3rem;
+}
+
+.free-courses li {
+    font-size: 2.5rem;
+    margin-top: 0.8rem;
+    list-style: none;
+}
+
+.language {
+    background: var(--dark-gray);
+    padding: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+    border-radius: 1.0rem;
+}
+
+
+
+/*Experiências Profissional*/
+.container-experiences {
+    background: var(--dark-gray);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 5rem;
+
+    border: solid 0.3rem var(--cinza-escuro);
+    border-radius: 1.0rem;
+}
+
+.experiences img {
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.experiences h2 {
+    color: var(--black);
+    margin-bottom: 3rem;
+}
+
+.experiences h3 {
+    color: var(--black)
+}
+
+.experiences p {
+    line-height: 2.5rem;
+}
+
+
+/*Rodapé*/
+.baseboard {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+
+.baseboard a {
+    background: var(--dark-gray);
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--white-color);
+    margin-left: 5rem;
+
+    border-radius: 1.0rem;
+}
+
+.baseboard a:hover {
+    font-size: 2.5rem;
+    background: var(--white-color);
+    color: var(--dark-gray)
+}
+
+/*Responsive*/
+@media (max-width:800px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .container-two {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+
+    header img {
+        width: 50%;
+    }
+
+    header {
+        font-size: 1rem;
+    }
+
+    a {
+        margin: 2rem;
+    }
+
+    .language {
+        font-size: 1rem;
+    }
+
+
+}
