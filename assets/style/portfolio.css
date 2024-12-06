@@ -275,6 +275,10 @@ a {
 
 
 /*Rodapé*/
+footer a {
+    line-height: 3rem;
+}
+
 .glow-on-hover {
     width: 13rem;
     height: 3rem;
