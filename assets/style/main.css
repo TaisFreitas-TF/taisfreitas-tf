@@ -283,16 +283,15 @@ footer .btn:hover {
 
 @media (max-width: 410px) {
     .container {
-
         flex-wrap: wrap;
     }
 
     header h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     main {
-        padding-top: 10rem;
+        padding-top: 8rem;
     }
 
     main h1 {
@@ -305,6 +304,6 @@ footer .btn:hover {
 
 
     footer .buttons {
-        padding: 4rem;
+        padding: 10rem;
     }
 }
