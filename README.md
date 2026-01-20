@@ -1,20 +1,16 @@
 - 👋 Oi, Meu nome é Taís
 
-- 👀 Estou em busca de novas experiências, novos conhecimentos, desenvolvimento profissional e pessoal e ter a oportunidade de mostrar todo o meu potencial.
+- 🎯 OBJETIVO PROFISSIONAL
+Atuar como QA Manual Júnior / Tester Júnior, contribuindo para a qualidade de sistemas por meio da execução de testes manuais, documentação de casos de teste, registro e acompanhamento de bugs, com plano de evolução para QA Automação.
 
-- 💞️ Em meus anos de experiência na área de tecnologia trabalhei com edições de vídeos e imagens, realizei e realizo trabalhos freelancer como designer gráfico, e também construí o site da empresa onde eu trabalho como freelancer. Trabalhei em outros setores fora da área mas nunca me desliguei totalmente da tecnologia por gostar muito, graças a Deus estou tendo a oportunidade de me aprofundar mais nesta área que tanto amo.
+- 🧪 RESUMO PROFISSIONAL
+Profissional formada em Análise e Desenvolvimento de Sistemas, em transição para a área de Qualidade de Software (QA). Possui experiência prática com sistemas, suporte técnico, processos e experiência do usuário, o que proporciona visão analítica, atenção a detalhes e foco em qualidade.
+Atua com testes manuais funcionais e exploratórios, criação de casos de teste, validação de regras de negócio e reporte estruturado de bugs. Possui base em lógica de programação e automação, com objetivo de evoluir gradualmente para QA Automação.
 
-Sou uma pessoa muito determinada, gosto de organização, responsável, atenta aos detalhes, sou capaz de aprender qualquer ensinamento, tenho fácil aprendizagem.
-Procuro ser sempre calma ao resolver problemas, e sempre busco encontrar a solução, mesmo quando não sei, procuro e estudo como resolvê-los, sou muito comprometida com o trabalho.
-
-Sou boa em escutar pessoas e compreendê-las, tenho empatia e estou sempre pronta para resolver conflitos. Tenho facilidade para trabalhar em equipe ou individualmente.    
-
-Gosto de cuidar da minha saúde praticando atividades físicas, gosto de viajar e ouvir músicas no meu tempo livre, e a minha família é a minha base. 
 
 - 🌱 Formação:
-- Graduação em Análise e Desenvolvimento de Sistemas - 02/2022 / 06/2024
-- Pós-Graduação em Tecnologias e Inovações Web
 - Pós-Graduação em Desenvolvimento de Sistema com Python
+- Graduação em Análise e Desenvolvimento de Sistemas
 
 - 📫 contato: celular:(43) 99828-7930 / site: https://taisfreitas.netlify.app/ /  e-mail: taisfreitas.tm@gmail.com   
 
