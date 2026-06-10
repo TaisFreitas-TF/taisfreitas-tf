@@ -1,11 +1,12 @@
 - 👋 Oi, Meu nome é Taís
 
 - 🎯 OBJETIVO PROFISSIONAL
-Atuar como QA Manual Júnior / Tester Júnior, contribuindo para a qualidade de sistemas por meio da execução de testes manuais, documentação de casos de teste, registro e acompanhamento de bugs, com plano de evolução para QA Automação.
+•	Atuar nas áreas de Desenvolvimento Front-end, Desenvolvimento Web, Web Design, Design Gráfico, Arte-finalização ou Comunicação Visual, contribuindo com a criação de interfaces digitais, materiais gráficos e soluções tecnológicas para empresas.
 
 - 🧪 RESUMO PROFISSIONAL
-Profissional formada em Análise e Desenvolvimento de Sistemas, em transição para a área de Qualidade de Software (QA). Possui experiência prática com sistemas, suporte técnico, processos e experiência do usuário, o que proporciona visão analítica, atenção a detalhes e foco em qualidade.
-Atua com testes manuais funcionais e exploratórios, criação de casos de teste, validação de regras de negócio e reporte estruturado de bugs. Possui base em lógica de programação e automação, com objetivo de evoluir gradualmente para QA Automação.
+•	Formada em Análise e Desenvolvimento de Sistemas, com Pós-Graduação em Desenvolvimento de Sistemas com Python e experiência em desenvolvimento web, criação de sites institucionais, design gráfico, produção de conteúdo digital e gestão administrativa.
+•	Possuo conhecimentos em HTML5, CSS3, JavaScript, React, Python, automação de processos com n8n, UX/UI, Photoshop, CorelDRAW e Canva. Perfil criativo, organizado, proativo e com facilidade de aprendizado, buscando oportunidades nas áreas de tecnologia, desenvolvimento web e comunicação visual.
+
 
 
 - 🌱 Formação:
